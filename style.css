@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-style {
+    font-size: large;
+    background-color: rgb(255, 0, 106);
+}
+
+a.name.navbar-brand {
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.name {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+/* .jumbotron:scroll {
+    ;
+} */
