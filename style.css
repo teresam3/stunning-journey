@@ -16,10 +16,6 @@ a.name.navbar-brand {
     color: white;
 }
 
-a.nav-link {
-    color: white;
-}
-
 .name {
     text-align: center;
 }
@@ -30,7 +26,19 @@ a.nav-link {
     text-align: center;
 }
 
+.work-images {
+    max-width: 33%;
+    max-height: min-content;
+    margin:2px;
+    padding: 2px;
+    text-align: center;
+}
 
 /* .jumbotron:scroll {
     ;
 } */
+
+#routes {
+    font-weight: normal;
+    color: white;
+}

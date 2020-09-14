@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---bootstrap cdn-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!----google api-->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<!--jquery cdn-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<!----stylesheet-->
   <link href='./style.css' rel='stylesheet'>
   <title>Teresa Maldonado</title>
 </head>
 <body>
+<!----navbar-->
   <nav id="nav-style" class="nav-style navbar navbar-expand-lg navbar-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact-me.html">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
+      <ul id='routes'class="navbar-nav">
+        <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="./projects.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Work
           </a>
@@ -30,11 +30,18 @@
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact-me.html">Contact</a>
+        </li>
         </li>
       </ul>
     </div>
     <a class="name navbar-brand" href="./index.html">Teresa Maldonado</a>
   </nav>
+<!---big header----->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Hello! I'm Teresa Maldonado.
@@ -42,14 +49,31 @@
       <h5 class="lead">Scroll down to see my work!</h5>
     </div>
   </div>
+<!----work grid---->
   <div class="container">
   <div class="row">
-    <div class="col">col</div>
-    <div class="col">col</div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/rashid-khreiss-igr_y-vDvFU-unsplash.jpg'>
+    </div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/campaign-creators-OGOWDVLbMSc-unsplash.jpg'>
+    </div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/visuals-sW_BS0OVgv0-unsplash.jpg'>
+    </div>
+<!--Next row grid--->
     <div class="w-100"></div>
-    <div class="col">col</div>
-    <div class="col">col</div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/kobu-agency-k41cAJvJ7h0-unsplash.jpg'>
+    </div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/visuals-sW_BS0OVgv0-unsplash.jpg'>
+    </div>
+    <div class="col">
+      <img class='work-images' src='./placeholder-images/jessica-loaiza-Gh6cYg54KGc-unsplash.jpg'>
+    </div>
   </div>
 </div>
+<script src='./work.js'></script>
 </body>
 </html>
