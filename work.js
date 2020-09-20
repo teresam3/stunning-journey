@@ -2,11 +2,10 @@
 
 function onScroll() {
 $(window).scroll(function() {
-   $("#nav-style").removeClass("a.nav-link")
-   $("#nav-style").addClass(".white")
-console.log("scroll is working")
-});
+        $("#nav-style .navbar-brand").addClass("white")
+        $("#nav-style").addClass("white")
+        $("a.nav-link").addClass("white")
+        });
 }
-
 onScroll()
 
