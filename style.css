@@ -3,6 +3,7 @@ body {
     color: white;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,10 +15,9 @@ html {
 
 a.name.navbar-brand {
     color: white;
-}
-
-.name {
-    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: bolder;
 }
 
 .jumbotron {
@@ -34,21 +34,15 @@ a.name.navbar-brand {
     text-align: center;
 }
 
-/* .jumbotron:scroll {
-    ;
-} */
-
-#routes {
-    font-weight: normal;
+a.nav-link{
     color: white;
-}
-
-.red {
-    background-color: red;
-    color: white
+    padding: 0;
+    font-weight: normal;
 }
 
 .white {
     background-color: white;
     color: rgb(255, 0, 106);
+    padding: 0;
+    font-weight: normal;
 }

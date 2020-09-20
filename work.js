@@ -1,10 +1,12 @@
-$(document).ready()
+//$(document).ready()
 
-var nav = $("#routes");
+function onScroll() {
+$("window").scroll(function() {
+   $("#nav-style").removeClass("a.nav-link")
+   $("#nav-style").addClass(".white")
+console.log("hello")
+});
+}
 
-nav.on("scroll", (function() {    
-        nav.addClass("white")
-        nav.removeClass("red")
-        console.log("it works")
-}));
-     
+
+
