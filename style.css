@@ -42,3 +42,13 @@ a.name.navbar-brand {
     font-weight: normal;
     color: white;
 }
+
+.red {
+    background-color: red;
+    color: white
+}
+
+.white {
+    background-color: white;
+    color: rgb(255, 0, 106);
+}
