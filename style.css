@@ -50,3 +50,9 @@ a.nav-link{
     color: rgb(255, 0, 106) !important;
     font-size: large;
 }
+
+.link-images {
+    list-style-type: none;
+    display: inline;
+    max-width: 20%;
+}
