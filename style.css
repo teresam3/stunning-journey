@@ -3,10 +3,6 @@ body {
     color: white;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .jumbotron {
     background-color: red;
     color: white;
@@ -14,17 +10,9 @@ html {
     font-weight: normal;
 }
 
-.work-images {
-    max-width: 33%;
-    max-height: min-content;
-    margin:2px;
-    padding: 2px;
-    text-align: center;
-}
-
 /* bg color */
 .nav-style {
-    background-color: rgb(255, 0, 106);
+    background-color:red;
 }
 
 /* the navbar logo/name */
@@ -47,7 +35,7 @@ a.nav-link{
 /* on scroll event */
 .white {
     background-color: white;
-    color: rgb(255, 0, 106) !important;
+    color:red !important;
     font-size: large;
 }
 
@@ -55,4 +43,8 @@ a.nav-link{
     list-style-type: none;
     display: inline;
     max-width: 20%;
+}
+
+.work {
+    
 }
