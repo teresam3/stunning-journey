@@ -40,4 +40,5 @@ a.nav-link{
 
 .form-control {
     width: 75%;
+    justify-content: center;
 }
