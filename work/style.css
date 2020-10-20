@@ -1,22 +1,22 @@
 body {
-    color: red;
+    color: darksalmon;
     font-family: 'Poppins', sans-serif;
 }
 
 .name-logo {
     margin-left: 200px;
     margin-right: 570px;
-    color: red;
+    color: darksalmon;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: red;
+.navbar-nav .nav-link {
+    color: darksalmon;
 }
 
 .hero-image {
     width: 1100px;
-    height: 768px;
-    border: 15px solid red;
+    height: 575px;
+    border: 15px dotted darksalmon;
     padding: 50px;
     margin-left: 150px;
     margin-right: 150px;
