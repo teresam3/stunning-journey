@@ -11,8 +11,13 @@ body {
     max-width: 45%;
 }
 
+.name-logo:hover {
+    color:darksalmon;
+  }
+
 .navbar-nav .nav-link {
     color: darksalmon;
+    max-width: 55%;
 }
 
 .hero-image {
