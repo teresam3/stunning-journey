@@ -8,6 +8,7 @@ body {
     margin-right: 150px;
     padding: 0px;
     color: darksalmon;
+    max-width: 45%;
 }
 
 .navbar-nav .nav-link {
