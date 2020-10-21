@@ -5,7 +5,8 @@ body {
 
 .name-logo {
     margin-left: 200px;
-    margin-right: 570px;
+    margin-right: 150px;
+    padding: 0px;
     color: darksalmon;
 }
 
@@ -28,4 +29,10 @@ body {
 
 .intro {
     font-size: medium;
+}
+
+.btn.btn-primary {
+    background-color: transparent;
+    color: darksalmon;
+    border: none;
 }
