@@ -1,7 +1,8 @@
 //$(document).ready()
 
-function onScroll() {
-$(window).scroll(function() {
+//portflio hover
+function onHover() {
+$(window).onHover(function() {
     $("#nav-style .navbar-brand").addClass("white")
     $("#nav-style").addClass("white")
     $("a.nav-link").addClass("white")
