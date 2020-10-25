@@ -8,7 +8,7 @@ body {
 .name-logo {
     margin-left: 200px;
     margin-right: 150px;
-    padding: 0px;
+    padding: 5px;
     color:  darkseagreen;
     max-width: 45%;
     font-size: x-large;
@@ -68,7 +68,7 @@ h4 {
 
 .btn.btn-primary:hover {
     border: solid 3px darkseagreen;
-  }
+}
 
 
 .btn.btn-secondary {
@@ -76,4 +76,19 @@ h4 {
     background-color:darkseagreen;
     color: white;
     border-radius: 10px;
+}
+
+.footer-nav {
+    background-color: darkseagreen;
+    color: white; 
+    padding: 50px;
+    margin-top: 20px;;
+}
+
+a.footer-nav {
+    color: white;
+}
+
+a.footer-nav:hover {
+    color: white;
 }
