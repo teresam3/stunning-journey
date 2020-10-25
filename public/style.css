@@ -18,7 +18,7 @@ body {
 .name-logo:hover {
     color: darkseagreen;
     border: solid 3px darkseagreen;
-    border-radius: 7px;
+    border-radius: 3px;
   }
 
 .navbar-nav .nav-link {
@@ -45,7 +45,6 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     opacity: 100%;
-    border: solid 5px darkseagreen;
 }
 
 .landing {
@@ -72,6 +71,7 @@ h4 {
 #jumbotron {
     margin-top: 43px;
     border: 0px;
+    background-color: #ecdfec;
 }
 
 /* work grid styling */
@@ -93,18 +93,13 @@ h4 {
 
 /* footer nav */
 .footer-nav {
-    background-color: darkseagreen;
-    color: white; 
+    background-color: darkseagreen; 
     padding: 50px;
     margin-top: 20px;;
 }
 
-a.footer-nav {
+a.nav-link {
     color: white;
     text-decoration: none;
 }
 
-a.footer-nav:hover {
-    color: white;
-    text-decoration: none;
-}
