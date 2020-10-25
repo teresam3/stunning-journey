@@ -17,6 +17,7 @@ body {
 .name-logo:hover {
     color: darkseagreen;
     border: solid 3px darkseagreen;
+    border-radius: 7px;
   }
 
 .navbar-nav .nav-link {
@@ -51,8 +52,13 @@ h4 {
     margin-top: 80px;
 }
 
+#jumbotron {
+    margin-top: 43px;
+    border: 0px;
+}
+
 .work-grid {
-    margin-top: 100px;
+    margin-top: 43px;
 }
 
 .intro {
