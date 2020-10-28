@@ -72,6 +72,7 @@ h4 {
     margin-top: 43px;
     border: 0px;
     background-color: #ecdfec;
+    color: white;
 }
 
 /* work grid styling */
@@ -103,3 +104,6 @@ a.nav-link {
     text-decoration: none;
 }
 
+.footer-link {
+    color-rendering:white;
+}
