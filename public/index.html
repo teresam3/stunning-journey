@@ -15,76 +15,78 @@
 </head>
 <body>
 <!-- About Modal -->
-<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">A little bit about myself</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Hi, I am Teresa! I am web developer with a passion of illustration and all things creative. I see web design and development simply as a another medium to express creativity.
+  <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Bio">A little bit about myself</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Hi, I am Teresa! I am web developer with a passion of illustration and all things creative. I see web design and development simply as a another medium to express creativity.</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 <!-- Contact Modal -->
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">So you want to chat?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Contact">So you want to chat?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
             <div class="form-group">
-              <label for="inputName">Name</label>
-              <input type="name" class="form-control" id="inputName">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Company</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <label for="inputEmail1">Email address</label>
+              <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-              <label for="inputName">Company</label>
-              <input type="name" class="form-control" id="inputName">
+              <label for="inputarea">Let's connect!</label>
+              <textarea class="form-control" id="inputarea" rows="3"></textarea>
             </div>
-            <label for="inputEmail1">Email address</label>
-            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="inputarea">Let's connect!</label>
-            <textarea class="form-control" id="inputarea" rows="3"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand name-logo col-sm-12 col-md-12" href="./index.html">teresa maldonado</a>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+  <nav class="navbar">
+    <div class="col-md-8 col-sm-12 col-lg-8">
+      <a class="navbar-brand name-logo" href="./index.html">teresa maldonado</a>
+    </div>
+    <div class="col-md-8 col-sm-12 col-lg-4">
+      <ul class="navbar-nav" id="btn">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link">
             <!-- Button trigger about modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aboutModal">
-              about
-            </button><span class="sr-only">(current)</span></a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aboutModal">about</button>
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link">
             <!-- Button trigger contact modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
-              contact
-            </button><span class="sr-only">(current)</span></a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">contact</button>
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
       </ul>
     </div>
@@ -117,13 +119,13 @@
 <!--row grid break--->
   <div class="w-100"></div>
     <!-- <div class="work col">
-      <img class="work-images img-thumbnail" id="work" src="../images/placeholder-images/kobu-agency-k41cAJvJ7h0-unsplash.jpg">
+      <img class="work-images img-thumbnail" id="work" src="">
     </div>
     <div class="work col">
-      <img class="work-images img-thumbnail" id="work" src="../images/placeholder-images/visuals-sW_BS0OVgv0-unsplash.jpg">
+      <img class="work-images img-thumbnail" id="work" src="">
     </div>
     <div class="work col">
-      <img class="work-images img-thumbnail" id="work" src="../images/placeholder-images/jessica-loaiza-Gh6cYg54KGc-unsplash.jpg">
+      <img class="work-images img-thumbnail" id="work" src="">
     </div> -->
   </div>
 </div>
