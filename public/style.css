@@ -49,6 +49,7 @@ body {
     padding: 0px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 10px;
     opacity: 100%;
 }
 
@@ -74,7 +75,7 @@ h4 {
 
 /* middle styling */
 #jumbotron {
-    margin-top: 43px;
+    margin-top: 45px;
     border: 0px;
     background-color: #ecdfec;
     color: white;
