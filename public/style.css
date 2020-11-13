@@ -79,6 +79,7 @@ h4 {
     border: 0px;
     background-color: #ecdfec;
     color: white;
+    padding-left: 50px;
 }
 
 /* work grid styling */
@@ -117,6 +118,7 @@ a.nav-link {
 }
 
 /* media queries */
+
 @media only screen and (min-width: 600px) {
 /* For tablets: */
 }
