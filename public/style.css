@@ -97,8 +97,21 @@ h4 {
 }
 
 /* modal styling */
+.profile-pic {
+    border-radius: 50%;
+    float: left;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bio-text{ 
+    margin: 10px;
+    padding: 10px;
+}
+
 .about {
-    color: forestgreen;
+    color: darkseagreen;
 }
 
 .btn.btn-secondary {
