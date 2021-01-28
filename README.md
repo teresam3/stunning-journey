@@ -14,4 +14,4 @@ The purpose of this project is purely to create a portfolio for myself to displa
 
 ## Links 
 github : https://github.com/teresam3/stunning-journey
-deployed project - my portfolio - : teresamaldonado.com
+deployed project - my portfolio - : 
